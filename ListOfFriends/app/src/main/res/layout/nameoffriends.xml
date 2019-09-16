@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingTop="8dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="16dp">
+
+        <ImageView
+            android:id="@+id/profile_photo"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="#454522" />
+
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_toLeftOf="@+id/message_button"
+            android:layout_toRightOf="@+id/profile_photo"
+            android:lines="1"
+            android:text="name"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/user_name"
+            android:layout_marginLeft="73dp"
+            android:layout_marginTop="2dp"
+            android:lines="1"
+            android:text="address" />
+
+
+        <ImageView
+            android:id="@+id/message_button"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentRight="true"
+            android:background="#764432" />
+
+    </RelativeLayout>
+
+</LinearLayout>
