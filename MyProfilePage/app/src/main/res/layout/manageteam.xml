@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingTop="30dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="30dp">>
+
+        <TextView
+            android:id="@+id/alert_team"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="50dp"
+            android:lines="1"
+            android:text="동호회 회원 모집"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/alert_team"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="50dp"
+            android:lines="1"
+            android:text="장소 | 분류 | 단체 or 개인"
+            android:textSize="16dp" />
+
+        <Button
+            android:id="@+id/out_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+
+            android:lines="2"
+            android:text="탈퇴
+하기"
+            android:textAlignment="center" />
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>
